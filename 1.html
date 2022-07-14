@@ -6,20 +6,38 @@
     <title>Plot 1</title>
 </head>
 <style>
-    .btn {
-  background-color: rgba(0, 0, 0, 0);
+#logo {
+   background-color: rgba(0, 0, 0, 0);  
 }
+#claim {
+    border: 2px solid black;
+          border-radius: 5px;
+          background-color: rgba(0, 0, 0, 0);
+          color: black;	
+          padding: 14px 28px;
+          font-size: 16px;
+          cursor: default;
+}
+.success {
+          border-color: #ffffff;
+          color: white;
+        }
+        
+        .success:hover {
+          background-color: #ffffff;
+          color: black;
+        }
 </style>
 <body style="background-color:black;"></body>
 <body>
-    <a href="index.html"><button class="btn success"><img style="display: block; margin-left: auto; margin-right: auto;" src="logo.png" width="48" 
+    <a href="index.html"><button class="btn" id="logo"><img style="display: block; margin-left: auto; margin-right: auto;" src="logo.png" width="48" 
         height="48" /></button></a>
     <div style="text-align: center; color: white; padding-top: 40px;">
         <h1 style="text-align: center;"><strong><span style="font-family: Georgia;">Plotland</span></strong></h1>
         <HR WIDTH="15%" color="#FFFFFF" SIZE="7" NOSHADE> 
-      </div>  
-      <p style="text-align: center;">&nbsp;</p>
+      </div>
             <p><img style="display: block; margin-left: auto; margin-right: auto;" src="1.png" width="640" 
               height="640" /></p>
+              <a href="claim.html"><button class="btn success">Claim this Plot!</button></a>
 </body>
 </html>
